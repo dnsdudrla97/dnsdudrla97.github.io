@@ -3,7 +3,7 @@ subtitle: Younsle 팀의 모의 해킹
 description: >- # this means to ignore newlines until "baseurl:"
   취약점 분석 및 다양한 정보보안 관련을 게시하는 블로그 입니다.😀
 
-url: "https://younsle.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://dnsdudrla97.github.io/" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
