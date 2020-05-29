@@ -5,6 +5,7 @@ author: Younsle
 date: '2020-05-29'
 category: NmapScriptingEngine
 summary: Lua Language
+thumbnail: /assets/img/posts/luaa.gif
 ---
 # Lua 언어 정리
 
