@@ -1,10 +1,10 @@
 {
-  "name": "devlopr-jekyll",
-  "homepage": "https://github.com/sujaykundu777/devlopr-jekyll",
+  "name": "모의 해킹 연구",
+  "homepage": "https://github.com/dnsdudrla97/dnsdudrla97.github.io",
   "authors": [
-    "sujaykundu777 <sujaykundu777@gmail.com>"
+    "dnsdudrla97 <younsle@kakao.com>"
   ],
-  "description": "A Jekyll Theme Built For Developers",
+  "description": "취약점 분석 및 다양한 정보보안 관련을 게시하는 블로그 입니다.😀",
   "main": "",
   "keywords": [
     "jekyll-theme",

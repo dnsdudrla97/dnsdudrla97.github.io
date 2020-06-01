@@ -1,6 +1,6 @@
 {
-  "name": "devlopr jekyll blog",
-  "description": "A Jekyll Theme built for Developers",
-  "repository": "https://github.com/sujaykundu777/devlopr-jekyll",
-  "keywords": ["jekyll", "blog"]
+  "name": "모의 해킹 연구",
+  "description": "취약점 분석 및 다양한 정보보안 관련을 게시하는 블로그 입니다.😀",
+  "repository": "https://github.com/dnsdudrla97/dnsdudrla97.github.io",
+  "keywords": ["exploit", "blog"]
 }
