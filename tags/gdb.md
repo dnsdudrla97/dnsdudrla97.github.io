@@ -1,13 +1,13 @@
 ---
 layout: page
-title: WindowExploit
-permalink: /blog/tags/WindowExploit
+title: gdb
+permalink: /blog/tags/gdb
 ---
  
 <h5> Posts by Tag : {{ page.title }} </h5>
 
 <div class="card">
-{% for post in site.tags.WindowExploit %}
+{% for post in site.tags.gdb %}
  <li class="category-posts"><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </div>
