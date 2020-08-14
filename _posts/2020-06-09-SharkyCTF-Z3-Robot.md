@@ -8,29 +8,29 @@ summary: write-up
 thumbnail: /assets/img/posts/SHARKYCTF.png
 ---
 
-![/assets/img/posts/reversing/SHARKYCTF/2017/Z3-Robot/0.png](/assets/img/posts/reversing/SHARKYCTF/2017/Z3-Robot/0.png)
+![/assets/img/posts/reversing/SHARKYCTF/2017/Z3-Robot/0.png](/assets/img/posts/reversing/SHARKYCTF/2017/Z3-Robot/0.png){: width="70%" height="70%"}
 
 ### 바이너리 실행
 
-![/assets/img/posts/reversing/SHARKYCTF/2017/Z3-Robot/1.png](/assets/img/posts/reversing/SHARKYCTF/2017/Z3-Robot/1.png)
+![/assets/img/posts/reversing/SHARKYCTF/2017/Z3-Robot/1.png](/assets/img/posts/reversing/SHARKYCTF/2017/Z3-Robot/1.png){: width="70%" height="70%"}
 
 - 입력 값을 받을 수 있도록 하며 임의의 문자열을 입력할 시 `3Z Z3 z3 zz3 3zz33` 해당 문자열을 출력하는 것을 알 수 있다.
 
-![/assets/img/posts/reversing/SHARKYCTF/2017/Z3-Robot/2.png](/assets/img/posts/reversing/SHARKYCTF/2017/Z3-Robot/2.png)
+![/assets/img/posts/reversing/SHARKYCTF/2017/Z3-Robot/2.png](/assets/img/posts/reversing/SHARKYCTF/2017/Z3-Robot/2.png){: width="70%" height="70%"}
 
-![/assets/img/posts/reversing/SHARKYCTF/2017/Z3-Robot/3.png](/assets/img/posts/reversing/SHARKYCTF/2017/Z3-Robot/3.png)
+![/assets/img/posts/reversing/SHARKYCTF/2017/Z3-Robot/3.png](/assets/img/posts/reversing/SHARKYCTF/2017/Z3-Robot/3.png){: width="70%" height="70%"}
 
 - `fgets` 함수 호출 인자 `char *s`, `0x19`, `s1`
 - `strcspn` 함수 호출 인자 `const char *s1`, `const char *s2`, `s1`
     - str1에 있는 문자열에서 str2 문자가 있을 경우 그 문자 까지의 개수를 리턴한다.
 
-![/assets/img/posts/reversing/SHARKYCTF/2017/Z3-Robot/4.png](/assets/img/posts/reversing/SHARKYCTF/2017/Z3-Robot/4.png)
+![/assets/img/posts/reversing/SHARKYCTF/2017/Z3-Robot/4.png](/assets/img/posts/reversing/SHARKYCTF/2017/Z3-Robot/4.png){: width="70%" height="70%"}
 
 - flag 값을 얻기 위해서는 `check_flag` 함수를 거쳐서 반환 값이 1이어야 한다.
 
 - 반환 값을 얻기 까지의 조건들이 너무 더럽다....
 
-![/assets/img/posts/reversing/SHARKYCTF/2017/Z3-Robot/5.png](/assets/img/posts/reversing/SHARKYCTF/2017/Z3-Robot/5.png)
+![/assets/img/posts/reversing/SHARKYCTF/2017/Z3-Robot/5.png](/assets/img/posts/reversing/SHARKYCTF/2017/Z3-Robot/5.png){: width="70%" height="70%"}
 
 ```cpp
 _BOOL8 __fastcall check_flag(char *a1)
