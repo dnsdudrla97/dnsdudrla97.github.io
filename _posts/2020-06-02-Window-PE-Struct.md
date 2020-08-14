@@ -38,7 +38,7 @@ Type: WindowExploit
 - Alignment란 여러 가지 내부 연산 등 처리상의 효율성을 위해 특정 단위로 간격을 맞춰주는 것을 의미  한다.
 - 섹션이 파일 상태에서는 사이즈가 0이지만 메모리에 로드된 후에는 용량이 커지는 경우도 존재
 
-    ![/assets/img/posts/WindowExploit_post/dnsdudrla97_pe_main_change.png](/assets/img/posts/WindowExploit_post/dnsdudrla97_pe_main_change.png)
+    ![/assets/img/posts/WindowExploit_post/dnsdudrla97_pe_main_change.png](/assets/img/posts/WindowExploit_post/dnsdudrla97_pe_main_change.png){: width="50%" height="50%"}
 
 ### 계산기 프로그램 PE 구조 분석
 
