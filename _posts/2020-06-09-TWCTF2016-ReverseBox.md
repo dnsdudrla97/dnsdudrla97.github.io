@@ -228,5 +228,3 @@ int main(int argc, char *argv[])
     return 0;
 }
 ```
-
-[AES 암호화 (Rijndael 알고리즘)](https://www.notion.so/AES-Rijndael-1a351d1a64084d51a4bf7faa50cc5cb5)
