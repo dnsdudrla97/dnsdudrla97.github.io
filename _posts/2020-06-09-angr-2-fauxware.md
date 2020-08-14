@@ -12,24 +12,24 @@ thumbnail: /assets/img/posts/angr/angr_main.png
 
 ### data 섹션
 
-![/assets/img/posts/angr/fauxware/0.png](/assets/img/posts/angr/fauxware/0.png)
+![/assets/img/posts/angr/fauxware/0.png](/assets/img/posts/angr/fauxware/0.png){: width="70%" height="70%"}
 
 ### authenticate 함수
 
-![/assets/img/posts/angr/fauxware/1.png](/assets/img/posts/angr/fauxware/1.png)
+![/assets/img/posts/angr/fauxware/1.png](/assets/img/posts/angr/fauxware/1.png){: width="70%" height="70%"}
 
 - `sneaky` 전역 변수가 가리키고 있는 문자열 과 유저 이름을 `strcmp` 함수를 바탕으로 비교를 통해 같으면 1을 반환하고 아닐시 유저 이름에 해당 하는 파일 이름을 `open` 함수를 바탕으로 읽고 해당 값과 유저 패스워드와 비교하여 같으면 1을 반환 아니면 0을 반환한다.
 - 우리가 피해야할 주소 값은 `0x4006E6` 임을 알 수있다.
 
-![/assets/img/posts/angr/fauxware/2.png](/assets/img/posts/angr/fauxware/2.png)
+![/assets/img/posts/angr/fauxware/2.png](/assets/img/posts/angr/fauxware/2.png){: width="70%" height="70%"}
 
 ### 접근해야 하는 위치
 
-![/assets/img/posts/angr/fauxware/3.png](/assets/img/posts/angr/fauxware/3.png)
+![/assets/img/posts/angr/fauxware/3.png](/assets/img/posts/angr/fauxware/3.png){: width="70%" height="70%"}
 
 - 기본적으로 앞에서 `authenticate` 함수에서 반환된 값이 1 일 경우 `accepted` 함수를 호출하게 된다.
 
-![/assets/img/posts/angr/fauxware/4.png](/assets/img/posts/angr/fauxware/4.png)
+![/assets/img/posts/angr/fauxware/4.png](/assets/img/posts/angr/fauxware/4.png){: width="70%" height="70%"}
 
 ### angr solve 1
 
@@ -43,7 +43,7 @@ def solve2():
     print(sm.found[0].posix.dumps(0))
 ```
 
-![/assets/img/posts/angr/fauxware/5.png](/assets/img/posts/angr/fauxware/5.png)
+![/assets/img/posts/angr/fauxware/5.png](/assets/img/posts/angr/fauxware/5.png){: width="70%" height="70%"}
 
 ### angr sovle 2
 
@@ -60,7 +60,7 @@ def solve1():
     print(input_1)
 ```
 
-![/assets/img/posts/angr/fauxware/6.png](/assets/img/posts/angr/fauxware/6.png)
+![/assets/img/posts/angr/fauxware/6.png](/assets/img/posts/angr/fauxware/6.png){: width="70%" height="70%"}
 
 ```python
 import angr
