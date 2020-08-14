@@ -187,7 +187,7 @@ typedef struct _IMAGE_OPTIONAL_HEADER {
   DWORD                SizeOfHeapReserve;
   DWORD                SizeOfHeapCommit;
   DWORD                LoaderFlags;
-  DWORD                NumberOfRvaAndSizes;
+  DWORD                NumberOfRvaAnds;
   IMAGE_DATA_DIRECTORY DataDirectory[IMAGE_NUMBEROF_DIRECTORY_ENTRIES];
 } IMAGE_OPTIONAL_HEADER32, *PIMAGE_OPTIONAL_HEADER32;
 ```
