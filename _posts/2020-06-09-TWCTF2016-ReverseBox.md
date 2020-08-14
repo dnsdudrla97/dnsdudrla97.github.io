@@ -18,11 +18,11 @@ for GNU/Linux 2.6.24, BuildID[sha1]=5403acba0427c34695b1ebda8f0c678905b33456, st
 
 - 해당 바이너리를 올바른 플래그와 함께 실행했을 때의 아웃풀 정보를 보여준다.
 
-![assets/img/posts/reversing/TWCTF/2016/reverse-box/0.png](assets/img/posts/reversing/TWCTF/2016/reverse-box/0.png){: width="70%" height="70%"}
+![/assets/img/posts/reversing/TWCTF/2016/reverse-box/0.png](/assets/img/posts/reversing/TWCTF/2016/reverse-box/0.png){: width="70%" height="70%"}
 
 ### main 함수 분석
 
-![assets/img/posts/reversing/TWCTF/2016/reverse-box/1.png](assets/img/posts/reversing/TWCTF/2016/reverse-box/1.png){: width="70%" height="70%"}
+![/assets/img/posts/reversing/TWCTF/2016/reverse-box/1.png](/assets/img/posts/reversing/TWCTF/2016/reverse-box/1.png){: width="70%" height="70%"}
 
 - `unsigned int` 형의 `auStack276` 배열은 `init_table` 함수로 초기화가 되어지며
 - argv오 입력한 길이 만큼 루틴을 돌면서 `auStack276` 의 인덱스 로 사용되어 해당 값을 출력한다.
@@ -31,13 +31,13 @@ for GNU/Linux 2.6.24, BuildID[sha1]=5403acba0427c34695b1ebda8f0c678905b33456, st
 
 ### init_table 함수 분석
 
-![assets/img/posts/reversing/TWCTF/2016/reverse-box/2.png](assets/img/posts/reversing/TWCTF/2016/reverse-box/2.png){: width="70%" height="70%"}
+![/assets/img/posts/reversing/TWCTF/2016/reverse-box/2.png](/assets/img/posts/reversing/TWCTF/2016/reverse-box/2.png){: width="70%" height="70%"}
 
 - do~while 문을 바탕으로 `arg_8`을 초기화한 후 나머지 `arg_8`의 값은 0번째 값을 이용해 생성하는 것을 확인할 수있다.
 - `arg_8[0]`에 올 수 있는 경우의 수는 256이기 때문에 생성될 수있는 `arg_8`의 수도 256가지 이다.
 - 시간을 난수 시드로 사용하며 경우의 수가 다수이다. 해당 어셈블리어를 살펴보도록 한다.
 
-![assets/img/posts/reversing/TWCTF/2016/reverse-box/3.png](assets/img/posts/reversing/TWCTF/2016/reverse-box/3.png){: width="70%" height="70%"}
+![/assets/img/posts/reversing/TWCTF/2016/reverse-box/3.png](/assets/img/posts/reversing/TWCTF/2016/reverse-box/3.png){: width="70%" height="70%"}
 
 - 하위 2 비트, 즉 0-ff의 경우 다음 *ROR1* 계산 만 취해 보겠다.
 - 이것은 알고리즘이며 다시 되돌리수 없다. 그렇기 때문에 블라스팅의 사용은 제한된다.
@@ -47,7 +47,7 @@ for GNU/Linux 2.6.24, BuildID[sha1]=5403acba0427c34695b1ebda8f0c678905b33456, st
         - box의 생성은 시간에 의해 생성된 난수와 관련이 있지만 생성된 난수는 1바이트에 불과하다
         - 즉 256 개의 가능성 만 존재한다. 그렇기 때문에 모든 테이블을 탐색하여 결과를 찾을 수 있다. 개임 팁에 따르면 깃발은 `TWCTF` 로 시작한다.
 
-![assets/img/posts/reversing/TWCTF/2016/reverse-box/4.png](assets/img/posts/reversing/TWCTF/2016/reverse-box/4.png){: width="70%" height="70%"}
+![/assets/img/posts/reversing/TWCTF/2016/reverse-box/4.png](/assets/img/posts/reversing/TWCTF/2016/reverse-box/4.png){: width="70%" height="70%"}
 
 - 해당 문자는 고정된 12자를 생성한다.
 
@@ -110,13 +110,13 @@ end
 end
 ```
 
-![assets/img/posts/reversing/TWCTF/2016/reverse-box/5.png](assets/img/posts/reversing/TWCTF/2016/reverse-box/5.png){: width="70%" height="70%"}
+![/assets/img/posts/reversing/TWCTF/2016/reverse-box/5.png](/assets/img/posts/reversing/TWCTF/2016/reverse-box/5.png){: width="70%" height="70%"}
 
 - 반복 256의 경우의 수를 만족할 수 있도록
 
-![assets/img/posts/reversing/TWCTF/2016/reverse-box/6.png](assets/img/posts/reversing/TWCTF/2016/reverse-box/6.png){: width="70%" height="70%"}
+![/assets/img/posts/reversing/TWCTF/2016/reverse-box/6.png](/assets/img/posts/reversing/TWCTF/2016/reverse-box/6.png){: width="70%" height="70%"}
 
-![assets/img/posts/reversing/TWCTF/2016/reverse-box/7.png](assets/img/posts/reversing/TWCTF/2016/reverse-box/7.png){: width="70%" height="70%"}
+![/assets/img/posts/reversing/TWCTF/2016/reverse-box/7.png](/assets/img/posts/reversing/TWCTF/2016/reverse-box/7.png){: width="70%" height="70%"}
 
 ### solved Code
 
