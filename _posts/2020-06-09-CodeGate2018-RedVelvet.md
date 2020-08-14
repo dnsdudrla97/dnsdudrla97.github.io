@@ -46,7 +46,7 @@ Undefined (U) → Create String (a) → WOW String
 
 ![/assets/img/posts/reversing/CodeGate/2018/4.png](/assets/img/posts/reversing/CodeGate/2018/4.png){: width="70%" height="70%"}
 
-![/assets/img/posts/reversing/CodeGate/2018/5.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/841fc9ca-c93d-47d4-9436-bbb4707c7272/0.png){: width="70%" height="70%"}
+![/assets/img/posts/reversing/CodeGate/2018/5.png](/assets/img/posts/reversing/CodeGate/2018/5.png){: width="70%" height="70%"}
 
 - `_ptrace` 함수는 인자 `edi:0, esi:0, edx:1, ecx:0` 을 받으며 호출되며 반환 되는 값이 `0xFFFFFFFFFFFFFFFF` 값 즉, `-1` 과 비교되어 0 이 아니게 되면 정상 루틴이 아닌 다른 루틴으로 빠지는 것을 확인할 수 있었다.
 - `Ptrace` 의 `PTRACE_TRACEME` 옵션은 자기 자신에게 디버거를 붙이라는 의미로서 해당 코드에서는 `ptrace`의 결과가 -1인지 검사하고 참이라면 유효하지 않은 코드 영역으로 점프를 하게 된다. 즉 안티 디버깅을 하기 위해 `자기 자신이 디버깅 당하는 중인지 검사` 하는 것이다.
