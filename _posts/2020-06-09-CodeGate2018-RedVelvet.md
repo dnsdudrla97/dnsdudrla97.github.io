@@ -63,6 +63,8 @@ Undefined (U) → Create String (a) → WOW String
 
 ![/assets/img/posts/reversing/CodeGate/2018/8.png](/assets/img/posts/reversing/CodeGate/2018/8.png){: width="70%" height="70%"}
 
+## solved code (with z3)
+
 ```python
 # This Python file uses the following encoding: utf-8
 from z3 import *
