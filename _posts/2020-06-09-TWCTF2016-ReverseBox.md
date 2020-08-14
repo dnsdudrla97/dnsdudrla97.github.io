@@ -57,7 +57,7 @@ movzx   eax, al
 mov     [esp+4], eax
 mov     dword ptr [esp], offset a02x ; "%02x"
 call    _printf
-
+```
 - eax 레지스터는 입력한 문자를 저장한다.
 - 그런 다음 printf 함수는 eax 위치 에서 [esp+1ch]의 배열 요소를 전당한다.
 - 그래서 해당 배열은 우리의 결과를 담고 있다.
@@ -84,7 +84,6 @@ call    _printf
 배열 요소가 임의 값과 같도록 허용한다.
 
 -> 우리가 저장한 배열과 바이너리 실행의 임의 값을 사용하여 기본 배열을 얻는 것이다
-```
 
 ### gdb script
 
