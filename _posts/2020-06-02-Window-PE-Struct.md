@@ -38,11 +38,11 @@ Type: WindowExploit
 - Alignment란 여러 가지 내부 연산 등 처리상의 효율성을 위해 특정 단위로 간격을 맞춰주는 것을 의미  한다.
 - 섹션이 파일 상태에서는 사이즈가 0이지만 메모리에 로드된 후에는 용량이 커지는 경우도 존재
 
-    ![/assets/img/posts/WindowExploit_post/dnsdudrla97_pe_main_change.png](/assets/img/posts/WindowExploit_post/dnsdudrla97_pe_main_change.png){: width="50%" height="50%"}
+    ![/assets/img/posts/WindowExploit_post/dnsdudrla97_pe_main_change.png](/assets/img/posts/WindowExploit_post/dnsdudrla97_pe_main_change.png){: width="70%" height="70%"}
 
 ### 계산기 프로그램 PE 구조 분석
 
-![/assets/img/posts/WindowExploit_post/PE_pe_view_calc.png](/assets/img/posts/WindowExploit_post/PE_pe_view_calc.png)
+![/assets/img/posts/WindowExploit_post/PE_pe_view_calc.png](/assets/img/posts/WindowExploit_post/PE_pe_view_calc.png){: width="70%" height="70%"}
 
 ### Image_DOS_HEADER, DOS Stub
 
@@ -238,7 +238,7 @@ typedef struct _IMAGE_OPTIONAL_HEADER {
 - 프로그램을 실행 하기 위해 Import 하는 DLL 이름과 사용할 함수 정보가 담긴 INT, IAT 주소 등의 정보가 들어 있다.
 - PE 로더가 실행 시 주소값을 IAT에 동적으로 입력해 주기 위해 필요한 부분으로 내부 동작 방식이 상당히 복잡하다.
 
-![/assets/img/posts/WindowExploit_post/PE_ImportDirectory.png](/assets/img/posts/WindowExploit_post/PE_ImportDirectory.png)
+![/assets/img/posts/WindowExploit_post/PE_ImportDirectory.png](/assets/img/posts/WindowExploit_post/PE_ImportDirectory.png){: width="70%" height="70%"}
 
 - 외부 DLL 파일의 함수 주소를 가져올 때 Export Table를 참고하고, 여기서 찾은 주소를 Import Table을 활용해서 IAT(Import Address Table)에 저장해두고 사용한다.
 - DLL import, export 과정 참고
