@@ -6,6 +6,7 @@ date: '2020-06-02'
 category: WindowExploit
 summary: WindowExploit
 thumbnail: /assets/img/posts/WindowExploit_post/dnsdudrla97_pe_main_change.png
+changefreq : weekly
 ---
 # 윈도우 실행 파일 구조
 

@@ -6,6 +6,7 @@ date: '2020-08-15'
 category: reversing
 summary: write-up
 thumbnail: /assets/img/posts/codegate.png
+changefreq : weekly
 ---
 
 ### Angry Bird 바이너리 동작 결과

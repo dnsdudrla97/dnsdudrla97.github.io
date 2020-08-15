@@ -6,6 +6,7 @@ date: '2020-06-05'
 category: Metasploit
 summary: Metasploit
 thumbnail: /assets/img/posts/Metasploit/MSF_banner.png
+changefreq : weekly
 ---
 # Metasploit 환경 구성
 

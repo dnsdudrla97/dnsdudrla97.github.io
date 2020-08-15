@@ -6,6 +6,7 @@ date: '2020-06-05'
 category: Metasploit
 summary: Metasploit
 thumbnail: /assets/img/posts/Metasploit/MSF_banner.png
+changefreq : weekly
 ---
 # 간략한 Metasploit 아키텍처 및 파일 시스템 구조 이해
 

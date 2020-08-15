@@ -6,6 +6,7 @@ date: '2020-08-14'
 category: reversing
 summary: write-up
 thumbnail: /assets/img/posts/codegate.png
+changefreq : weekly
 ---
 
 ### 바이너리 정보

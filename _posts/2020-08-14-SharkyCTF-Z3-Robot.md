@@ -6,6 +6,7 @@ date: '2020-08-14'
 category: reversing
 summary: write-up
 thumbnail: /assets/img/posts/SHARKYCTF.png
+changefreq : weekly
 ---
 
 ![/assets/img/posts/reversing/SHARKYCTF/2017/Z3-Robot/0.png](/assets/img/posts/reversing/SHARKYCTF/2017/Z3-Robot/0.png){: width="70%" height="70%"}

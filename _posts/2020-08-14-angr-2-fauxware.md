@@ -6,6 +6,7 @@ date: '2020-08-14'
 category: angr
 summary: angr
 thumbnail: /assets/img/posts/angr/angr_main.png
+changefreq : weekly
 ---
 
 [dnsdudrla97/angr-doc](https://github.com/dnsdudrla97/angr-doc/tree/master/examples/fauxware-SOLVED)

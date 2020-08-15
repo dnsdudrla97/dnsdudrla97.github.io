@@ -6,6 +6,7 @@ date: '2020-08-15'
 category: troubleshooting
 summary: troubleshooting
 thumbnail: /assets/img/posts/troubleshooting/python/python-trouble.png
+changefreq : weekly
 ---
 
 # Docker Ubuntu 환경 Python pip locale 에러
