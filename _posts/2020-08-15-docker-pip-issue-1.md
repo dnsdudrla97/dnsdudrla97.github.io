@@ -5,7 +5,7 @@ author: Younsle
 date: '2020-08-15'
 category: troubleshooting
 summary: troubleshooting
-thumbnail: /assets/img/posts/python/python-trouble.png
+thumbnail: /assets/img/posts/troubleshooting/python/python-trouble.png
 ---
 
 # Docker Ubuntu 환경 Python pip locale 에러
@@ -17,7 +17,7 @@ Ubuntu 16.04.7 LTS \n \l
 ```python
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
-  File "/usr/lib/python2.7/locale.py", line 531, in setlocale
+  File "/usr/lib/python3/namin.py", line 4112, in setlocale
     return _setlocale(category, locale)
 locale.Error: unsupported locale setting
 ```
@@ -74,12 +74,12 @@ LANG=en_US.UTF-8
 # dpkg-reconfigure locales
 ```
 
-![/assets/img/posts/python/0.png](/assets/img/posts/python/0.png)
+![/assets/img/posts/troubleshooting/python/0.png](/assets/img/posts/troubleshooting/python/0.png)
 
 - `en_US.UTF-8 UTF-8` 을 선택하고 `en_US.UTF-8` 을 설정하도록 한다.
 
-![/assets/img/posts/python/1.png](/assets/img/posts/python/1.png)
+![/assets/img/posts/troubleshooting/python/1.png](/assets/img/posts/troubleshooting/python/1.png)
 
 - 그 후에 `pip install` 이 잘되는 것을 확인할 수있다.😊😊
 
-![/assets/img/posts/python/2.png](/assets/img/posts/python/2.png)
+![/assets/img/posts/troubleshooting/python/2.png](/assets/img/posts/troubleshooting/python/2.png)
