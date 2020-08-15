@@ -74,12 +74,12 @@ LANG=en_US.UTF-8
 # dpkg-reconfigure locales
 ```
 
-![/assets/img/posts/troubleshooting/python/0.png](/assets/img/posts/troubleshooting/python/0.png)
+![/assets/img/posts/troubleshooting/python/0.png](/assets/img/posts/troubleshooting/python/0.png){: width="70%" height="70%"}
 
 - `en_US.UTF-8 UTF-8` 을 선택하고 `en_US.UTF-8` 을 설정하도록 한다.
 
-![/assets/img/posts/troubleshooting/python/1.png](/assets/img/posts/troubleshooting/python/1.png)
+![/assets/img/posts/troubleshooting/python/1.png](/assets/img/posts/troubleshooting/python/1.png){: width="70%" height="70%"}
 
 - 그 후에 `pip install` 이 잘되는 것을 확인할 수있다.😊😊
 
-![/assets/img/posts/troubleshooting/python/2.png](/assets/img/posts/troubleshooting/python/2.png)
+![/assets/img/posts/troubleshooting/python/2.png](/assets/img/posts/troubleshooting/python/2.png){: width="70%" height="70%"}
