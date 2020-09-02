@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	  	  
+<!-- www.check-domains.com sitemap generator -->
+
+<url>
+   <loc>https://dnsdudrla97.github.io/</loc>
+   <lastmod>2020-08-24T10:33:31+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>1.0000</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/feed.xml</loc>
+   <lastmod>2020-09-02T02:28:36+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/about</loc>
+   <lastmod>2020-08-24T10:33:31+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/search</loc>
+   <lastmod>2020-08-24T10:33:31+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/web/2020/08/24/zer0pts2020-musicblog/</loc>
+   <lastmod>2020-08-24T10:33:32+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/reversing/2020/08/16/HITCON2017-sakura/</loc>
+   <lastmod>2020-08-24T10:33:32+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/elf/2020/08/16/ELF-tools/</loc>
+   <lastmod>2020-08-24T10:33:32+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/elf/2020/08/16/ELF-phdr/</loc>
+   <lastmod>2020-08-24T10:33:32+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/elf/2020/08/16/ELF-linker-env/</loc>
+   <lastmod>2020-08-24T10:33:32+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/blog/</loc>
+   <lastmod>2020-08-24T10:33:31+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/contact/</loc>
+   <lastmod>2020-08-24T10:33:31+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/blog/categories/web</loc>
+   <lastmod>2020-08-24T10:33:31+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/blog/categories/NmapScriptingEngine</loc>
+   <lastmod>2020-08-24T10:33:31+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/blog/categories/WindowExploit</loc>
+   <lastmod>2020-08-24T10:33:31+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/blog/categories/Metasploit</loc>
+   <lastmod>2020-08-24T10:33:31+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/blog/categories/BurpSuite</loc>
+   <lastmod>2020-08-24T10:33:31+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/blog/categories/gdb</loc>
+   <lastmod>2020-08-24T10:33:31+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/blog/categories/Android</loc>
+   <lastmod>2020-08-24T10:33:31+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/blog/categories/reversing</loc>
+   <lastmod>2020-08-24T10:33:31+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/blog/categories/angr</loc>
+   <lastmod>2020-08-24T10:33:31+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/blog/categories/troubleshooting</loc>
+   <lastmod>2020-08-24T10:33:31+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/blog/categories/ELF</loc>
+   <lastmod>2020-08-24T10:33:31+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/blog/page/2/</loc>
+   <lastmod>2020-08-24T10:33:31+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/blog/page/3/</loc>
+   <lastmod>2020-08-24T10:33:31+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/blog/page/4/</loc>
+   <lastmod>2020-08-24T10:33:31+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/blog/page/5/</loc>
+   <lastmod>2020-08-24T10:33:31+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/blog/page/6/</loc>
+   <lastmod>2020-08-24T10:33:31+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/nmapscriptingengine/2020/05/29/Lua-Language/</loc>
+   <lastmod>2020-08-24T10:33:32+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/windowexploit/2020/06/02/Window-PE-Struct/</loc>
+   <lastmod>2020-08-24T10:33:32+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/windowexploit/2020/06/01/Vulnerability-and-Exploit/</loc>
+   <lastmod>2020-08-24T10:33:32+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/metasploit/2020/06/05/Metasploit-2/</loc>
+   <lastmod>2020-08-24T10:33:32+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/metasploit/2020/06/05/Metasploit-1/</loc>
+   <lastmod>2020-08-24T10:33:32+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/burpsuite/2020/06/06/BurpSuite-1/</loc>
+   <lastmod>2020-08-24T10:33:32+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/gdb/2020/06/09/gdb/</loc>
+   <lastmod>2020-08-24T10:33:32+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/android/2020/08/14/CTF-Droid/</loc>
+   <lastmod>2020-08-24T10:33:32+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/reversing/2020/08/15/CodeGate2017-angrybird/</loc>
+   <lastmod>2020-08-24T10:33:32+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/reversing/2020/08/14/TWCTF2016-ReverseBox/</loc>
+   <lastmod>2020-08-24T10:33:32+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/reversing/2020/08/14/SharkyCTF-Z3-Robot/</loc>
+   <lastmod>2020-08-24T10:33:32+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/reversing/2020/08/14/CodeGate2018-RedVelvet/</loc>
+   <lastmod>2020-08-24T10:33:32+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/angr/2020/08/14/angr-2/</loc>
+   <lastmod>2020-08-24T10:33:32+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/angr/2020/08/14/angr-2-fauxware/</loc>
+   <lastmod>2020-08-24T10:33:32+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/angr/2020/08/14/angr-1/</loc>
+   <lastmod>2020-08-24T10:33:32+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/troubleshooting/2020/08/15/docker-pip-issue-1/</loc>
+   <lastmod>2020-08-24T10:33:32+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/elf/2020/08/16/ELF-file-format/</loc>
+   <lastmod>2020-08-24T10:33:32+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>https://dnsdudrla97.github.io/elf/2020/08/16/ELF-device-file/</loc>
+   <lastmod>2020-08-24T10:33:32+00:00</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>0.5120</priority>
+</url>
+</urlset>
