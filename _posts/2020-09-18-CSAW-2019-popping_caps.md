@@ -85,19 +85,49 @@ Your choice:
 - `tcache_perthread_struct` 는 single tcache thread의 body이며 두 개의 배열로 구성된다.
 - 그 중에서 데이터 항목은 `tcache entries`, `TCACHE_MAX_BIN 총 개수(default 64개)` , `tcache counts` 배열은 각 single linked list의 메모리 블록 수를 나타낸다.
 
-![/assets/img/posts/pwn/CSAW/2019/popping_case/3.png](/assets/img/posts/pwn/CSAW/2019/popping_case/3.png){: width="80%" height="80%"}
+```cpp
+typedef struct tcache_perthread_struct
+{
+  char counts[TCACHE_MAX_BINS];
+  tcache_entry *entries[TCACHE_MAX_BINS];
+} tcache_perthread_struct;
+```
 
 - struct의 single linked list의 최대 개수는 64개이며 single linked list에는 최대 7개의 메모리 블록이 있다.
 - 수용할 수 있는 최대 메모리 블록 크기는 0x408($1032_(10)$) 이다.
 
-![/assets/img/posts/pwn/CSAW/2019/popping_case/4.png](/assets/img/posts/pwn/CSAW/2019/popping_case/4.png){: width="80%" height="80%"}
+```cpp
+#if USE_TCACHE
+/* We want 64 entries.  This is an arbitrary limit, which tunables can reduce.  */
+# define TCACHE_MAX_BINS		64
+# define MAX_TCACHE_SIZE	tidx2usize (TCACHE_MAX_BINS-1)
+
+/* Only used to pre-fill the tunables.  */
+# define tidx2usize(idx)	(((size_t) idx) * MALLOC_ALIGNMENT + MINSIZE - SIZE_SZ)
+
+/* When "x" is from chunksize().  */
+# define csize2tidx(x) (((x) - MINSIZE + MALLOC_ALIGNMENT - 1) / MALLOC_ALIGNMENT)
+/* When "x" is a user-provided size.  */
+# define usize2tidx(x) csize2tidx (request2size (x))
+
+/* With rounding and alignment, the bins are...
+   idx 0   bytes 0..24 (64-bit) or 0..12 (32-bit)
+   idx 1   bytes 25..40 or 13..20
+   idx 2   bytes 41..56 or 21..28
+   etc.  */
+
+/* This is another arbitrary limit, which tunables can change.  Each
+   tcache bin will hold at most this number of chunks.  */
+# define TCACHE_FILL_COUNT 7
+#endif
+```
 
 ### heap 순서 파악
 
 - tcache_perthread_struct를 조작하기 위해서는 힙 순서를 파악해야 한다.
 - 힙은 첫 번째 할당에서만 시작되므로 할당하고 분석
 
-![/assets/img/posts/pwn/CSAW/2019/popping_case/5.png](/assets/img/posts/pwn/CSAW/2019/popping_case/5.png){: width="80%" height="80%"}
+![/assets/img/posts/pwn/CSAW/2019/popping_case/3.png](/assets/img/posts/pwn/CSAW/2019/popping_case/3.png){: width="80%" height="80%"}
 
 - 첫 번째 힙은 항상 tcache_perthread_struct 이다.
 - 두 번째 힙 청크는 0x3a8 크기
@@ -136,7 +166,7 @@ gdb-peda$ x/40gx 0x5577632b8000
 
 ### fake chunk를 만들기 위해 malloc(0x3a8) 하는 이유
 
-![/assets/img/posts/pwn/CSAW/2019/popping_case/6.png](/assets/img/posts/pwn/CSAW/2019/popping_case/6.png){: width="80%" height="80%"}
+![/assets/img/posts/pwn/CSAW/2019/popping_case/4.png](/assets/img/posts/pwn/CSAW/2019/popping_case/4.png){: width="80%" height="80%"}
 
 - house of spirit 공격 기법에 관한 것이며 tcachebin에 삽입 될 fake chunk를 해제하고 다음 malloc을 바탕으로 원하는 곳을 할당할 수 있다.
 
@@ -210,7 +240,7 @@ tcachebins
 
 ### write(p64(malloc_hook))
 
-![/assets/img/posts/pwn/CSAW/2019/popping_case/7.png](/assets/img/posts/pwn/CSAW/2019/popping_case/7.png){: width="80%" height="80%"}
+![/assets/img/posts/pwn/CSAW/2019/popping_case/5.png](/assets/img/posts/pwn/CSAW/2019/popping_case/5.png){: width="80%" height="80%"}
 
 - tcache_perthread_struct 의 head 영역의 0x20 크기 부분에 __malloc_hook 주소 가 삽입되 었기 떄문에 tcachebins를 확인한 결과 0x20으로 할당된 것을 확인할 수 있다.
 - 해당 상태에서 0x10 크기로 할당을 받게 된다면 __malloc_hook 영역에 할당하여 원하는 값으로 조작할 수 있다.
