@@ -7,7 +7,7 @@
 
 
 <p align="center">
-     <img src="https://github.com/dnsdudrla97/dnsdudrla97/blob/master/img/dw.gif" width=400>     
+     <img src="https://github.com/dnsdudrla97/dnsdudrla97.github.io/blob/master/assets/img/_hi.gif" width=400>     
 </p> 
 
 
