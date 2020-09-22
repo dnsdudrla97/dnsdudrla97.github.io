@@ -4,9 +4,11 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4232ac2b-63e0-4c78-92e0-e95aad5ab8c3/deploy-status)](https://app.netlify.com/sites/devlopr/deploys)
 ![](https://ruby-gem-downloads-badge.herokuapp.com/devlopr?type=total&color=brightgreen&style=plastic)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
-[![HitCount](http://hits.dwyl.com/dnsdudrla97/dnsdudrla97/dnsdudrla97githubio.svg)](http://hits.dwyl.com/dnsdudrla97/dnsdudrla97/dnsdudrla97githubio)
 
-# Hacking Blog
+
+<p align="center">
+     <img src="https://github.com/dnsdudrla97/dnsdudrla97/blob/master/img/dw.gif" width=400>     
+</p> 
 
 
 
