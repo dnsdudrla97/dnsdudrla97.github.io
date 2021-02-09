@@ -192,6 +192,13 @@ CMPNE   r0, #10
 MOVEQ   r1, #0
 ```
 
+## Calling Convention
+- r0~r3 순서대로 인자를 저장
+- 인자가 4개 이상이면 스택을 사용한다.
+- BL 명령으로 호출할 시 리턴주소는 LR 레지스터에 저장
+- 함수 리턴 값 반환은 r0 레지스터를 사용한다.
+
+
 ### Thumb Converting
 
 - Thumb로 변환
