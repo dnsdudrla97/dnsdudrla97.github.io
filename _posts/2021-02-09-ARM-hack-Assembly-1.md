@@ -58,7 +58,7 @@ pseudo-instruction
 
 ### ARM Instruction Format
 
-![/assets/img/posts/reversing/ARM/ARM-Register/ARM-BL.png](/assets/img/posts/reversing/ARM/ARM-Register/ARM-BL.png){: width="70%" height="70%"}
+![/assets/img/posts/reversing/ARM/ARM-Assembly/ARM-BL.png](/assets/img/posts/reversing/ARM/ARM-Assembly/ARM-BL.png){: width="70%" height="70%"}
 
 ```cpp
 AREA     ARMtest, CODE, READONLY
