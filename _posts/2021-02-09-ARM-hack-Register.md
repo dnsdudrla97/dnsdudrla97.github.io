@@ -15,7 +15,7 @@ changefreq : weekly
 - 프로세서 모드마다 다른 레지스터 bank가 있다.
 - bank 레지스터는 프로세서 예외 및 권한있는 작업을 처리하기 위한 빠른 문맥 교환을 제공한다.
 
-![/assets/img/posts/reversing/ARM/ARM-Register/ARM-REGISTER.png](/assets/img/posts/reversing/ARM/ARM-Register/ARM-REGISTER.png){: width="55%" height="55%"}
+![/assets/img/posts/reversing/ARM/ARM-Register/ARM-REGISTER.png](/assets/img/posts/reversing/ARM/ARM-Register/ARM-REGISTER.png){: width="70%" height="70%"}
 
 ## 범용 32 bit register
 
@@ -72,7 +72,7 @@ MOV pc, lr
 - Thumb 지원 프로세서에서 CPSR은 현재 프로세서 상태 (ARM 또는 Thumb) 도 보유한다.
 - ARM 아키텍처 v5TE 에서 CPSR은 Q 플래그도 보유한다.
 
-![/assets/img/posts/reversing/ARM/ARM-Register/ARM-CPSR.png](/assets/img/posts/reversing/ARM/ARM-Register/ARM-CPSR.png){: width="55%" height="55%"}
+![/assets/img/posts/reversing/ARM/ARM-Register/ARM-CPSR.png](/assets/img/posts/reversing/ARM/ARM-Register/ARM-CPSR.png){: width="70%" height="70%"}
 
 - Condition Code flags
     - N = Negative result from ALU
